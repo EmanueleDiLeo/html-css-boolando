@@ -35,16 +35,62 @@ ul{
 
 header{
   background-color: #ff6900;
-  
 }
 
 header div{
-  position: relative;
   height: 80px;
   justify-content: space-between;
   align-items: center;
 }
 
 header div img{
-  max-height: 50px;
+  max-height: 40px;
+}
+
+
+/* ***************************** MAIN ********************************** */
+
+main{
+  margin: 50px 0px 30px 0px;
+}
+
+.card{
+  position: relative;
+  cursor: pointer;
+}
+
+.card img{
+  
+  left: 0px;
+  top: 0px;
+  max-width: 450px;
+}
+
+/* .card img:first-child{
+  z-index: 0;
+}
+
+.card img:last-child{
+  display: none;
+  z-index: 1;
+}  */
+
+/* .card img:first-child:hover .card img:last-child{
+  display: block;
+
+} */
+
+#img1{
+  z-index: 2;
+}
+
+#img2{
+
+  z-index: 1;
+}
+
+.text{
+  height: 2000px;
+  width: 1000px;
+  background-color:aqua;
 }
