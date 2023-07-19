@@ -60,7 +60,7 @@ main{
 }
 
 .card img{
-  
+  position: absolute;
   left: 0px;
   top: 0px;
   max-width: 450px;
@@ -81,16 +81,16 @@ main{
 } */
 
 #img1{
-  z-index: 2;
+
+  z-index: 0;
 }
 
 #img2{
-
+  display: none;
   z-index: 1;
 }
 
-.text{
-  height: 2000px;
-  width: 1000px;
-  background-color:aqua;
+#img:hover #img2{
+  display: block;
+
 }
