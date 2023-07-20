@@ -30,7 +30,6 @@ ul{
 }
 
 
-
 /* ************************** HEADER *********************************** */
 
 header{
@@ -55,6 +54,17 @@ header div img{
   max-height: 30px;
 }
 
+header nav{
+  width: 30%;
+}
+
+.main-menu a:hover{
+  text-decoration: underline;
+}
+
+.shop-menu ul{
+  justify-content: flex-end;
+}
 
 /* ***************************** MAIN ********************************** */
 
@@ -97,7 +107,7 @@ main div.container{
   display: block;
 }
 
-.heart:hover .heart{
+.heart:hover{
   color: red;
 }
 
